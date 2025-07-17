@@ -3975,13 +3975,15 @@ label {
   height: 40px;
   outline: none;
   padding: 5px 15px;
-  color: #bdc3c7;
+  color: #000000;
   border-radius: 10px;
   -webkit-box-shadow: 1px 1px 14px 0px rgba(0,0,0,0.1);
   -moz-box-shadow: 1px 1px 14px 0px rgba(0,0,0,0.1);
   box-shadow: 1px 1px 14px 0px rgba(0,0,0,0.1);
   resize: none;
 }
+
+/*--bdc3c7--*/
 .form-controller:focus {
   color: #bdc3c7;
   border-color: #80c9a2;
@@ -12278,7 +12280,7 @@ a:hover, a:active {
   margin-bottom: 1em;
 }
 .comment-respond [class*="col-"] {
-  margin-bottom: 25px;
+  margin-top: 25px;
 }
 .comment-respond textarea {
   min-height: 160px;

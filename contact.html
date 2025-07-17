@@ -139,29 +139,76 @@
 				<li class="dot-shape shape-five"></li>
 			</ul>
 			<div class="container ml-b-40">
-				<div class="row align-items-center">
+				<div class="row align-items-start">
 					<div class="col-lg-8 col-md-8">
 						<div class="contact-form-area">
 							<form id="contact_form" class="contact-form" action="mailto:info@twelvesouthcreative.ie" method="get">
 								<div class="row">
 									<div class="col-lg-6 col-md-6">
 										<div class="form-group">
-											<label for="name">Your Name </label>
-											<input class="form-controller" id="name" name="name" type="text">
+											<label for="name">Contact Name </label>
+											<input class="form-controller" id="name" name="name" type="text" required>
 										</div>
 									</div>
 									<!--./ col-lg-6-->
 									<div class="col-lg-6 col-md-6">
 										<div class="form-group">
-											<label for="email">Your Email </label>
-											<input class="form-controller" id="email" name="email" type="email">
+											<label for="email">Contact Email </label>
+											<input class="form-controller" id="email" name="email" type="email" required>
+										</div>
+									</div>
+									<!--./ col-lg-6 -->
+                                    <div class="col-lg-6 col-md-6">
+										<div class="form-group">
+											<label for="company">Company Name </label>
+											<input class="form-controller" id="company" name="company" type="company" required>
+										</div>
+									</div>
+									<!--./ col-lg-6 -->
+                                    <div class="col-lg-6 col-md-6">
+										<div class="form-group">
+											<label for="companywebsite">Company Website </label>
+											<input class="form-controller" id="companywebsite" name="companywebsite" type="companywebsite" required>
+										</div>
+									</div>
+									<!--./ col-lg-6 -->
+                                    <div class="col-lg-6 col-md-6">
+										<div class="form-group">
+											<label for="service">Service of Interest </label>
+                                                <select class="form-controller" name="service" id="service" name="service" type="service" required>
+                                                    <option value="prdoneforyou">Done-For-You PR</option>
+                                                    <option value="prcoaching">Visibility and Brand Coaching</option>
+                                                    <option value="newsletter">Newsletter Services</option>
+                                                    <option value="website">Website</option>
+                                                </select>
+										</div>
+									</div>
+									<!--./ col-lg-6 -->
+                                    <div class="col-lg-6 col-md-6">
+										<div class="form-group">
+											<label for="budget">Budget</label>
+											<input class="form-controller" id="budget" name="budget" type="budget">
 										</div>
 									</div>
 									<!--./ col-lg-6 -->
 									<div class="col-12">
 										<div class="form-group">
-											<label for="name">Your Message </label>
+											<label for="name">Tell us a bit about your business </label>
 											<textarea id="message" name="message" class="form-controller" rows="4"
+												cols="50"></textarea>
+										</div>
+									</div><!-- /.col-12 -->
+                                    <div class="col-12">
+										<div class="form-group">
+											<label for="name">What are your expectations? What are you hoping to change from past experiences?</label>
+											<textarea id="expectations" name="expectations" class="form-controller" rows="4"
+												cols="50"></textarea>
+										</div>
+									</div><!-- /.col-12 -->
+                                    <div class="col-12">
+										<div class="form-group">
+											<label for="name">Anything else you would like us to know? </label>
+											<textarea id="comment" name="comment" class="form-controller" rows="4"
 												cols="50"></textarea>
 										</div>
 									</div><!-- /.col-12 -->
